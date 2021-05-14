@@ -1,0 +1,7 @@
+Task list 
+<ul>
+<li>make the cover</li>
+<li>make the function to predict what to do</li>
+<li>make the choices</li>
+<li> make how the prediction will happen</li>
+<li>make variables for each answer?</li>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Paofue's Magic 8 Ball</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script src="js/bootstrap.min.js" ></script> -->
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div>
+        <input type="text" id="answerInput" />
+        <button
+          type="button"
+          class="btn btn-secondary"
+          onclick="selectRandomAnswer()"
+        >
+          Submit
+        </button>
+      </div>
+      <div id="magicBallWrapper">
+        <img id="ball" src="img/magic8ball_start.png" />
+        <img id="smoke" src="img/smoke.png" />
+        <div id="randomAnswerWrapper">
+          <p id="randomAnswer"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
